@@ -14,6 +14,9 @@
 // @grant        none
 // ==/UserScript==
 
+(function() {
+    'use strict';
+
 function questionAuto() {
     //勾选全部答案
     questionList.forEach(function (item, index) {
@@ -80,9 +83,10 @@ function skipExam() {
 
 function autoPlay() {
     //加速倍率推荐2.5，太高会导致播放不记录分数
-    var vid = document.getElementById("vjs_video_3_html5_api")
+    //目前高校邦已对加速播放进行检测，故禁用加速功能
+    var vid = document.getElementById("video_player_html5_api") //元素id已改变
     if (vid != undefined) {
-        vid.playbackRate = 2.5
+        vid.playbackRate = 1
     }
 
     //继续观看
@@ -100,4 +104,4 @@ window.setInterval(function () {
     skipExam()
 }, 3000)
 
-
+})();
