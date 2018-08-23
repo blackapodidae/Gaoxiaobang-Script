@@ -1,13 +1,15 @@
-# Gaoxiaobang-Script
-高校邦脚本
+# Gaoxiaobang-Script for Tampermonkey
+高校邦脚本-油猴版
 
 ## 使用方法
-  * 直接粘贴脚本全文至控制台，把视频放到后台即可
-  * 现在可以将脚本添加到油猴了
+  * 本脚本需加入到油猴使用，如需控制台执行请使用[原始版本](https://github.com/Tyrone2333/Gaoxiaobang-Script)
 
 ## 注意
-* 加速倍率推荐2.5，太高会导致播放不记录分数
+* 高校邦已针对播放速度进行了检测，因此去除了加速播放功能
 
-* 看完播放下一节等于刷新了一次，需要重新粘贴一遍，用油猴的请自调
+* 目前高校邦已从网页中去除测验答案，因此测验的自动做题功能不能使用
 
-* `questionAuto`函数自动做题
+* 如遇其他问题请尝试屏蔽网址:
+
+> ```
+> https://anti-cheat.gaoxiaobang.com/
