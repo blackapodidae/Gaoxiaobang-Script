@@ -5,7 +5,6 @@
 // @description  Auto click the fucking video player
 // @author       BlackApodidae
 // @match        https://*.class.gaoxiaobang.com/*
-// @require      https://raw.githubusercontent.com/blackapodidae/Gaoxiaobang-Script/master/another.js
 // @supportURL   https://github.com/blackapodidae/Gaoxiaobang-Script/issues
 // @grant        none
 // ==/UserScript==
